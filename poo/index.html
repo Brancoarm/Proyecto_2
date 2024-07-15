@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas en POO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encuestas mediante POO</h1>
+        <div id="creacion-encuesta" class="section">
+            <h2>Crear Encuesta</h2>
+            <input type="text" id="titulo-encuesta" placeholder="Título de la Encuesta" class="input">
+            <div id="preguntas" class="questions-container">
+                <!-- Aquí se agregarán las preguntas -->
+            </div>
+            <button id="agregar-pregunta" class="button">Agregar Pregunta</button>
+            <button id="crear-encuesta" class="button">Crear Encuesta</button>
+        </div>
+        <div id="lista-encuestas" class="section">
+            <h2>Encuestas Disponibles</h2>
+            <ul id="encuestas" class="list">
+                <!-- Aquí se mostrarán las encuestas -->
+            </ul>
+        </div>
+        <div id="resultados-encuesta" class="section">
+            <h2>Resultados de la Encuesta</h2>
+            <div id="resultados" class="results-container">
+                <!-- Aquí se mostrarán los resultados -->
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
