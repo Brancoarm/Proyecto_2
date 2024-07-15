@@ -1,6 +1,8 @@
 Encuestas en JavaScript: Programación Funcional y Orientada a Objetos
+
 Este repositorio contiene dos implementaciones diferentes de una aplicación de encuestas en JavaScript: 
 una usando el paradigma de Programación Funcional y otra utilizando Programación Orientada a Objetos (POO). Ambas versiones permiten crear encuestas, agregar preguntas, registrar votos y ver los resultados de las encuestas.
+
 Uso: Ambas versiones de la aplicación proporcionan la misma funcionalidad básica:
 1. Crear una nueva encuesta con un título.
 2. Agregar preguntas a la encuesta.
